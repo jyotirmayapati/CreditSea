@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CreditReport>
+    <BasicDetails>
+        <Name>John Doe</Name>
+        <MobilePhone>+919876543210</MobilePhone>
+        <PAN>ABCDE1234F</PAN>
+        <CreditScore>750</CreditScore>
+    </BasicDetails>
+    <ReportSummary>
+        <TotalAccounts>10</TotalAccounts>
+        <ActiveAccounts>6</ActiveAccounts>
+        <ClosedAccounts>4</ClosedAccounts>
+        <CurrentBalanceAmount>250000</CurrentBalanceAmount>
+        <SecuredAccountsAmount>150000</SecuredAccountsAmount>
+        <UnsecuredAccountsAmount>100000</UnsecuredAccountsAmount>
+        <Last7DaysCreditEnquiries>2</Last7DaysCreditEnquiries>
+    </ReportSummary>
+    <CreditAccounts>
+        <CreditAccount>
+            <CreditCard>Visa Platinum</CreditCard>
+            <Bank>HDFC Bank</Bank>
+            <Address>1234 Elm Street, Mumbai, India</Address>
+            <AccountNumber>123456789</AccountNumber>
+            <AmountOverdue>5000</AmountOverdue>
+            <CurrentBalance>45000</CurrentBalance>
+        </CreditAccount>
+        <CreditAccount>
+            <CreditCard>Mastercard Gold</CreditCard>
+            <Bank>SBI Bank</Bank>
+            <Address>5678 Oak Avenue, Delhi, India</Address>
+            <AccountNumber>987654321</AccountNumber>
+            <AmountOverdue>0</AmountOverdue>
+            <CurrentBalance>30000</CurrentBalance>
+        </CreditAccount>
+    </CreditAccounts>
+</CreditReport>
